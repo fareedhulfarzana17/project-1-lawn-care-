@@ -1040,9 +1040,9 @@ color:#4e9525
     background-color:#4e9525;
      
     flex-direction: column;
-    position:fixed;
+    position:absolute;
      width:30%;
-    height: 100vh;
+    height: 100%;
     z-index: 1000;
     
     top: 0%;
