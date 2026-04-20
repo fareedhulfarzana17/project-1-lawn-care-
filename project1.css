@@ -8,6 +8,7 @@ html, body{
   width: 100%;
 }
 
+
 body{
   font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
@@ -31,6 +32,7 @@ body{
   height:fit-content;
   
 }
+
 .lawncare{
   color:#4e9525;
 
@@ -981,7 +983,7 @@ color:#4e9525
   display: none;
 }
 .menuiconcross{
-  display:block;
+  display:none;
 }
 
 .footer{
