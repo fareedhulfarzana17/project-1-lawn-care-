@@ -1,7 +1,9 @@
 
 let navitemsElement=document.querySelector(".navitems");
  let menuiconElement=document.querySelector(".menuicon");
+  let menuiconcrossElement=document.querySelector(".menuiconcross");
   let bodyclassElement=document.body;
+  
   
  menuiconElement.addEventListener("click",(e)=>{ 
    e.stopPropagation();
@@ -10,19 +12,34 @@ let navitemsElement=document.querySelector(".navitems");
     navitemsElement.classList.toggle("openmenu");
     let click=navitemsElement.classList.contains("openmenu");
     if(click){
-      menuiconElement.style.color="white";
+      menuiconcrossElement.style.display="block";
+      menuiconElement.style.display="none";
      }
-     else{
-      
-    menuiconElement.style.color="black";
-     }
+    
+   
    
  
 
  })
+ menuiconcrossElement.addEventListener("click",(e)=>{
+  e.stopPropagation();
+   menuiconElement.style.display="block";
+   menuiconcrossElement.style.display="none";
+
+   navitemsElement.classList.toggle("openmenu");
+
+ }) 
+
+     
+
+  
   bodyclassElement.addEventListener("click",()=>{
-     navitemsElement.classList.remove("openmenu");
-    menuiconElement.style.color="black"
+   
+   menuiconElement.style.display="block";
+   menuiconcrossElement.style.display="none";
+    navitemsElement.classList.remove("openmenu");
+
+ 
 
   })
  
