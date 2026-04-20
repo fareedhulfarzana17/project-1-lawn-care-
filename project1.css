@@ -1073,7 +1073,7 @@ color:#4e9525
   .navitems {
     background-color:#4e9525;
     flex-direction: column;
-    position:absolute;
+    position:fixed;
      width:90%;
     height: 90%;
     z-index: 1000;
