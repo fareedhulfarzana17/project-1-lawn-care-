@@ -487,7 +487,9 @@ position:relative;
 }
 
 .sidetext{
-  margin:50px
+  margin-left:50px;
+  margin-top:50px;
+  margin-bottom: 50px;
 
 }
 .sidetext h4{
@@ -1190,7 +1192,7 @@ color:#4e9525
   margin-left: 0;
 }
 .arrow-right{
-right: 5%;
+right: 8%;
 margin-left: 0;
 }
 .gallery{
