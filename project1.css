@@ -1041,12 +1041,12 @@ color:#4e9525
     background-color:#4e9525;
     flex-direction: column;
     position:absolute;
-     width:85vw;
+     width:90%;
     height: 45%;
     z-index: 1000;
     top: 0%;
      
-     right:-100%;
+     right:-110%;
      transition: 2s ease;
      padding-top: 70px;
      
@@ -1059,7 +1059,7 @@ color:#4e9525
   .openmenu{
     right:0px;
     color:white;
-    
+
     
    
     
