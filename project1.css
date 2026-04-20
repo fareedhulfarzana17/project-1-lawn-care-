@@ -115,7 +115,7 @@ text-align: left;
    font-size: clamp(5px, 5vw, 60px);
   color:white;
    width:70%;
-   white-space: nowrap;
+   
 }
 .textonimg p{
   color:#e5cb3d;
@@ -1101,6 +1101,7 @@ color:#4e9525
 .textonimg h1{
   width:100%;
   max-width: 95%;
+  white-space: nowrap;
 
  
 }
