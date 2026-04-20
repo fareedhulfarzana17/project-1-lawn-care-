@@ -1020,6 +1020,7 @@ color:#4e9525
     z-index: 2000;
     color:black;
      display: block;
+  
   }
  
   .section-1{
@@ -1030,42 +1031,36 @@ color:#4e9525
   .navitems li:hover{
     background-color: white;
     padding:10px;
-    width:100%;
+    width:100vw;
     margin-left: -20px;
     color:black;
     transition: 0.5s ease;
     
   }
-  .navitems{
+  .navitems {
     background-color:#4e9525;
-     
     flex-direction: column;
     position:absolute;
-     width:30%;
-    height: 50vh;
+     width:85vw;
+    height: 45%;
     z-index: 1000;
-    
     top: 0%;
      
      right:-100%;
      transition: 2s ease;
+     padding-top: 70px;
      
     
     
   
     color:white;
-    
-    
-    
-     
-    
-    
-    
-
   }
+  
   .openmenu{
     right:0px;
     color:white;
+    
+    
    
     
     
