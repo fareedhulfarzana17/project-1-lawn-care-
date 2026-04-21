@@ -200,10 +200,27 @@ position:relative;
 }
 .point-1 h5{
   color:rgb(167, 166, 166);
-  font-weight: 400;
-  text-align: center;
-  font-size: large;
-   line-height: 1.5;
+  font-size: clamp(5px, 3vw, 20px);
+    font-weight: 300;
+    line-height: 1.5;
+    width:70%;
+    text-align: center;
+}
+.point-2 h5{
+  color:rgb(167, 166, 166);
+  font-size: clamp(5px, 3vw, 20px);
+    font-weight: 300;
+    line-height: 1.5;
+    width:70%;
+    text-align: center;
+}
+.point-3 h5{
+  color:rgb(167, 166, 166);
+  font-size: clamp(5px, 3vw, 20px);
+    font-weight: 300;
+    line-height: 1.5;
+    width:70%;
+    text-align: center;
 }
 .point-2{
    width:200px;
@@ -221,11 +238,12 @@ position:relative;
 }
 .point-2 h5{
   color:rgb(167, 166, 166);
-  font-weight: 400;
-  text-align: center;
-  font-size: large;
-   line-height: 1.5;
+  font-weight: 300;
+    line-height: 1.5;
+    width:70%;
+    text-align: center;
 }
+
 .point-3{
    width:200px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -238,13 +256,7 @@ position:relative;
 .point-3 div,h3{
   margin-bottom:20px;
 }
-.point-3 h5{
-  color:rgb(167, 166, 166);
-  font-weight: 400;
-  text-align: center;
-  font-size: large;
-   line-height: 1.5;
-}
+
 .icon-1{
   background-color: rgb(238, 236, 236);
   border-radius: 50px;
@@ -299,8 +311,7 @@ position:relative;
   
 }
 .lawn-services h1{
-  font-size: 5vw;
- 
+  font-size: 5vw; 
   margin-bottom:10px;
   
 }
@@ -330,7 +341,7 @@ position:relative;
    font-size: smaller;
  
 
-}
+} 
 .arrow-right-2{
   color:#e5cb3d;
   background-color: #4e9525;
@@ -378,6 +389,7 @@ position:relative;
   
 
 }
+
 
 
 .point-2:hover  .icon-2{
@@ -476,12 +488,13 @@ position:relative;
  margin-left:36%;
  margin-top:-1.3%;
   
-}
+} 
+
 
 .sidetext h4,
 .sidetext h1,
 .sidetext p,
-.sidetext h3{
+.texthead{
  
   
   margin-bottom: 20px;
@@ -494,23 +507,25 @@ position:relative;
 
 }
 .sidetext h4{
-  color:#4e9525;
+
+color:#4e9525;
+font-size:15px;
 }
+
 .sidetext p{
   color:grey;
 }
-.section-4 h4{
-  color:black;
-  font-size:20px;
-}
-
-
-.section-4 h3{
+.texthead{
   color:#4e9525;
+  font-size:20px;
+  
 }
+
+
+
 
 .section-4 h1,
-.section-4 h3{
+.section-4 h4{
   text-align: center;
 }
 .gal-1 img,
@@ -612,13 +627,15 @@ line-height:1.5;
 .section-6 h1{
   margin-bottom: 100px;
     text-align: center;
+    font-size:clamp(5px,5vw,30px);
+
 
 }
 .section-6 h5{
    padding-top: 100px;
       color:#4e9525;
       font-weight: bold;
-      font-size:clamp(5px,5vw,17px);
+      font-size:clamp(5px,3vw,17px);
       padding-bottom:20px;
       padding-top: 100px;
 
@@ -1167,18 +1184,35 @@ color:#4e9525
 .section-2 .point-2,
 .section-2 .point-3{
   width:70vw;
+  border-radius: 30%;
+  
+   
 
   
+
+}
+.icon-1,
+.icon-2,
+.icon-3{
+ 
+  padding:15px;
+ 
+
+}
+.arrow-right-1,
+.arrow-right-2,
+.arrow-right-3{
+  padding:15px;
 
 }
 .section-3{
   display:flex;
   flex-direction: column;
-  margin-left:-10%;
+  margin-left:0%;
+  background-color: rgb(230, 229, 229) ;
  
  
 }
-.section-3 
 
 .coverimg img{
   width:100%;
@@ -1192,11 +1226,25 @@ color:#4e9525
 
 }
 .sidetext{
-  width:50%;
+  width:80%;
+  
+ 
+}
+.sidetext h1{
+  font-size: 5vw;
+}
+.sidetext p{
+  font-size: 3vw;
 }
 
 .sidetextbox-1,.sidetextbox-2,.sidetextbox-3,.sidetextbox-4,.sidetextbox-5{
-  width:70%;
+  width:90%;
+  border-radius: 20px;
+   align-items: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: -10px;
   
   
   font-size:10px;
@@ -1226,6 +1274,22 @@ color:#4e9525
 .section-4{
   margin-top:10%;
 }
+.section-4 h4{
+   font-size:15px;
+}
+.section-4 h1{
+  font-size: 5vw;
+  margin-bottom: 10%;
+}
+.section-4 p{
+  font-size:3vw;
+}
+
+.texthead{
+  color:#4e9525;
+  font-size: 15px;
+  
+}
 
 .gallery img{
   width:100%;
@@ -1241,35 +1305,37 @@ color:#4e9525
   
   
 }
+.section-5-contact h3{
+  font-size:3vw;
+
+}
 .section-5-contact h1{
   width:100%;
   margin-bottom:10px;
-  font-size:30px;
-  
- 
-  
-  
-}
-.section-5-contact h3{
-  font-size:18px;
-  
-  
-}
+  font-size:5vw;
+  }
+
 .section-5-number h1{
-  font-size:28px;
+  font-size:5vw;
   
 
 
 }
+.reviews p,
+.reviews h3,
+.reviews h4{
+  font-size: 3vw;
+  line-height: 1.2;
+}
+
 .reviews{
   display:flex;
   flex-direction:column;
   width:70vw;
    justify-items: center;
     align-items: center;
-      margin:30px;
-  margin-left: 100px;
-  margin-right: 100px;
+      margin:14%;
+      margin-top:5%;
   
 }
 .review-1,
@@ -1280,7 +1346,7 @@ color:#4e9525
   justify-items: center;
   display: flex;
   align-items: center;
-  margin-left:-20%
+  
 
 }
 .section-6 {
@@ -1293,15 +1359,29 @@ color:#4e9525
   
        margin:0px;
        padding:0px;
+       margin-bottom: 10px;
 
 
 }
 .section-7{
-  margin-bottom:-10px;
+  margin-bottom:-20px;
+}
+.section-7 h4{
+  font-size: 3vw;
+  margin-bottom: 1%;
+}
+.section-7 h1{
+  font-size: 5vw;
+  width:100%;
+
+}
+.section-7 p{
+  width:50%;
 }
 .blogs{
   display:flex;
   flex-direction:column;
+  margin-bottom:20px;
 
 }
 .blogs img{
@@ -1316,16 +1396,18 @@ color:#4e9525
   display:flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: -5%;
 }
 .subscribe-text{
   width:100%;
   margin:0%;
   padding:0%;
   margin-bottom: 10%;
-  font-size: 15px;
+  font-size: 10px;
+  margin-right: -50px;
 }
 .subscribe-button{
-  margin-left: 10px;
+  justify-content: center;
 
 }
 .section-9-div{
@@ -1377,6 +1459,18 @@ color:#4e9525
   font-size: 18px;
    margin-top: -30px;
 }
+.section-9 h1{
+  font-size: 5vw;
+
+}
+.section-9 p,
+.section-9 h4{
+  font-size: 3vw;
+
+}
+.section-9-div-1 li{
+  padding:15px;
+}
 .section-9-div-3 p{
   font-size: 15px;
   width:100%;
@@ -1400,7 +1494,7 @@ color:#4e9525
 
 
 .copyright{
-  font-size:15px;
+  font-size:3vw;
 }
 
 
