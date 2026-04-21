@@ -1392,6 +1392,13 @@ color:#4e9525
   width:95%;
   line-height: 1;
 }
+.blogs h3{
+  font-size: 18px;
+
+}
+.blogs p{
+  font-size: 3vw;
+}
 .section-8{
   display:flex;
   flex-direction: column;
