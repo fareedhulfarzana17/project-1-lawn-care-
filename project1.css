@@ -1178,6 +1178,8 @@ color:#4e9525
  
  
 }
+.section-3 
+
 .coverimg img{
   width:100%;
   
@@ -1188,6 +1190,9 @@ color:#4e9525
 .coverimg{
   margin:0%;
 
+}
+.sidetext{
+  width:50%;
 }
 
 .sidetextbox-1,.sidetextbox-2,.sidetextbox-3,.sidetextbox-4,.sidetextbox-5{
